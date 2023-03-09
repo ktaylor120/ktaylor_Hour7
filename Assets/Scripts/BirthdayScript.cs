@@ -8,11 +8,22 @@ public class BirthdayScript : MonoBehaviour
     void Start()
     {
         int count = 0;
-        while (count <= 12)
+        do
         {
-            Debug.Log(count);
             count++;
+            Debug.Log(count);
         }
+        while (count < 1);
+        Debug.Log("It's my birthday month!");
+
+        count = 0;
+        do
+        {
+            count++;
+            Debug.Log(count);
+        }
+        while (count < 20);
+        Debug.Log("It's my Birthday!");
     }
 
     // Update is called once per frame
