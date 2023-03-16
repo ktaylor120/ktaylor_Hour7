@@ -14,7 +14,7 @@ public class BirthdayScript : MonoBehaviour
             Debug.Log(count);
         }
         while (count < 1);
-        Debug.Log("It's my birthday month!");
+        Debug.Log("It's my birthday month");
 
         count = 0;
         do
