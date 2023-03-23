@@ -30,7 +30,14 @@ public class MyFirstLoop : MonoBehaviour
 
         for (int i = 10; i > 0; i--)
         {
-            Debug.Log("This is my count " + count);
+            if (i > 3)
+            {
+                Debug.Log("Lucky number " + i);
+            }
+            else
+            {
+                Debug.Log("This is my count " + i);
+            }
         }
         
     }
